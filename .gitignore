@@ -1,0 +1,23 @@
+# --- Python & Systèmes ---
+__pycache__/
+.DS_Store
+.env
+venv/
+env/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Données (Pandas) ---
+# On ignore les dossiers de données pour éviter de saturer GitHub
+data/
+temp/
+# On ignore aussi tous les fichiers volumineux individuels
+*.csv
+*.xlsx
+*.parquet
+*.json
+*.sqlite
+
+# --- Configuration ---
+config.yaml
