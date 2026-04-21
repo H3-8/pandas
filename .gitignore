@@ -1,23 +1,30 @@
-# --- Python & Systèmes ---
-__pycache__/
-.DS_Store
-.env
-venv/
-env/
+# --- Tests / Coverage ---
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
 
-# --- Jupyter Notebooks ---
-.ipynb_checkpoints/
+# --- Type checking / Lint / Format ---
+.mypy_cache/
+.ruff_cache/
 
-# --- Données (Pandas) ---
-# On ignore les dossiers de données pour éviter de saturer GitHub
-data/
-temp/
-# On ignore aussi tous les fichiers volumineux individuels
-*.csv
-*.xlsx
-*.parquet
-*.json
-*.sqlite
+# --- Packaging / Build artifacts ---
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
 
-# --- Configuration ---
-config.yaml
+# --- Logs / temp ---
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- OS ---
+Thumbs.db
